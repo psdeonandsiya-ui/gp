@@ -56,3 +56,70 @@ nav a:hover {
   border-radius: 5px;
 }
 
+
+
+
+.notice-board {
+    background: #fff8dc;
+    border: 2px solid #2e7d32;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+}
+
+.notice-board h2 {
+    background: #2e7d32;
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 15px -15px;
+    font-size: 20px;
+}
+
+.notice-board ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notice-board li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #aaa;
+    font-size: 15px;
+}
+
+.notice-board li:last-child {
+    border-bottom: none;
+}
+
+.notice-board a {
+    text-decoration: none;
+    color: #000;
+}
+
+.notice-board a:hover {
+    text-decoration: underline;
+    color: #2e7d32;
+}
+
+.date {
+    font-size: 13px;
+    color: #555;
+    margin-right: 8px;
+}
+
+.new {
+    background: red;
+    color: white;
+    font-size: 11px;
+    padding: 2px 5px;
+    margin-right: 6px;
+    border-radius: 3px;
+}
+
+.view-all {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2e7d32;
+}
