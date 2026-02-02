@@ -49,3 +49,10 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+nav a:hover {
+  background: #0b5e20;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
