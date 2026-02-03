@@ -126,6 +126,25 @@ nav a:hover {
 
 
 
+.site-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+}
+
+.logo {
+    width: 80px;      /* adjust as needed */
+    height: auto;
+}
+
+
+
+
+
+
 .header {
     display: flex;
     align-items: center;
@@ -159,3 +178,4 @@ nav a:hover {
         font-size: 20px;
     }
 }
+
