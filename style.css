@@ -126,16 +126,36 @@ nav a:hover {
 
 
 
-.site-header {
+.header {
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: green;
+    background: linear-gradient(to right, #0b5d1e, #1e8f3d);
     color: white;
-    padding: 15px;
+    padding: 15px 20px;
 }
 
 .logo {
-    width: 80px;      /* adjust as needed */
+    width: 80px;   /* adjust size */
     height: auto;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 60px;
+    }
+
+    .header-text h1 {
+        font-size: 20px;
+    }
 }
